@@ -115,3 +115,4 @@ class Pitch(Slide):
                 ).arrange(DOWN).scale(0.3).to_edge(DR)
 
         self.play(Write(author), Write(course))
+        self.next_slide()
