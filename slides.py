@@ -2,7 +2,7 @@ from manim import *
 from manim_slides import Slide
 
 
-class TitleSlide(Slide):
+class Pitch(Slide):
     def construct(self):
         self.wait_time_between_slides = 0.1
 
